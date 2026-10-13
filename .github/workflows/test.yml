@@ -750,7 +750,7 @@ jobs:
           test "$OUTPUT_VERSION" = "$SOTTO_TEST_VERSION"
           test "$OUTPUT_TARGET" = "$EXPECTED_TARGET"
           test -f "$OUTPUT_BINARY_PATH"
-reject-signature-failures:
+  reject-signature-failures:
     name: reject-signature-failures (windows)
     runs-on: windows-latest
     steps:
